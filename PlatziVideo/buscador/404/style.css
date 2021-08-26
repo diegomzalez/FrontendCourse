@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+}
+.header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+    background-color: #21c88b;
+
+}
+.header-img {
+    margin-left: 30px;
+    width: 200px;
+}
+.main {
+    background: linear-gradient(#21c88b, #ab88ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 597px;
+    color: white;
+}
+.p404 {
+    font-size: 50px;
+}
+.footer {
+    background-color: #ab88ff;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.footer a {
+    color: white;
+    cursor: pointer;
+    font: 14px;
+    padding-left:  30px;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(4);}
+    100% {transform: scale(1);}
+  }
+  .p404 {
+    animation-name: pulse;
+    animation-duration: 1s;
+
+  }
